@@ -14,54 +14,50 @@
 </head>
 
 <body class="d-flex flex-column justify-content-between">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">Logo</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="./index.html">Home </a>
-                    <a class="nav-item nav-link" href="./use.html">Use</a>
-                    <a class="nav-item nav-link" href="./team.html">Team</a>
-                    <a class="nav-item nav-link active" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom shadow-sm">
+        <img class="logo my-0 mr-md-auto font-weight-normal img-fluid" src="img/logo.png">
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2 text-dark" href="./index.html">Home</a>
+            <a class="p-2 text-dark" href="./faq.html">FAQ</a>
+            <a class="p-2 text-dark" href="./team.html">Team</a>
+            <a class="p-2 text-dark" href="./contact.html">Contact</a>
+        </nav>
+        <a class="btn btn-outline-primary" href="#">Download the app</a>
+    </div>
 
     <main role="main">
-        <!-- bloc Header -->
-        <div class="p-md-5 bg-light text-left">
-            <div class=" d-flex flex-column  p-lg-5 my-5">
-                <h1 class="display-4 font-weight-normal">Contact Us</h1>
-                <p class="lead font-weight-normal p-2">You have bugs ? Ideas ? Just tel us.</p>
+        <div id="bg_header" class="p-md-5 bg-light text-left">
+            <div class="d-flex flex-column p-lg-5">
+                <div class="container">
+                    <h1 class="display-4">Contact Us</h1>
+                    <p class=" font-weight-normal">You have bugs ? A Idea ? Tell us !</p>
+                </div>
             </div>
         </div>
-        <!-- bloc Formulaire -->
-        <form class=" m-5 p-2 bg-light">
-            <div class="form-row">
-                <div class="form-group col-md-4">
-                    <label for="fullName">Name</label>
-                    <input type="text" class="form-control" id="fullName">
+        <div class="row justify-content-center">
+            <form class=" m-5 p-2 col col-md-6">
+                <div class="form-row ">
+                    <div class="form-group col-md-4">
+                        <label for="fullName">Name</label>
+                        <input type="text" class="form-control" id="fullName">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="mail">Email</label>
+                        <input type="email" class="form-control" id="mail">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="sujet">Sujet</label>
+                        <input type="text" class="form-control" id="sujet">
+                    </div>
                 </div>
-                <div class="form-group col-md-4">
-                    <label for="mail">Email</label>
-                    <input type="email" class="form-control" id="mail">
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea class="form-control" id="message" rows="5"></textarea>
                 </div>
-                <div class="form-group col-md-4">
-                    <label for="sujet">Sujet</label>
-                    <input type="text" class="form-control" id="sujet">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="message">Your Message</label>
-                <textarea class="form-control" id="message" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-secondary m-5 ">Send Mail</button>
-        </form>
+                <button type="submit" class="btn btn-secondary m-5">Send Mail</button>
+            </form>
+        </div>
+        
     </main>
 
     <footer class="text-center bg-light">
@@ -72,10 +68,10 @@
                 </div>
                 <div class="col-md-7">
                     <ul class="list-unstyled text-small d-flex justify-content-start">
-                        <a class="mr-5" href="./index.html">Home</a>
+                        <a class="mr-5" href="./home.html">Home</a>
                         <a class="mr-5" href="./use.html">Use</a>
                         <a class="mr-5" href="./team.html">Team</a>
-                        <a class="mr-5" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
+                        <a class="mr-5" href=".contact.html">Contact</a>
                     </ul>
                 </div>
                 <div class="col-md-3">
