@@ -1,8 +1,9 @@
-html, body{
+html,
+body {
     height: 100%;
 }
 
-#bg_header{
+#bg_header {
     background-image: url('/docs/img/background_header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,6 +15,6 @@ html, body{
     max-width: 15em;
 }
 
-#format_spacing{
+#format_spacing {
     padding: 2em 0 2em 0;
 }
