@@ -1,0 +1,5 @@
+.use_block_background {
+    background-image: url('https://via.placeholder.com/1000x1000.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
