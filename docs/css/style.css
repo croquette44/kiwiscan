@@ -15,6 +15,12 @@ body {
     max-width: 15em;
 }
 
+i {
+    color: #B3CC57;
+}
+
+
+
 #header_content{
     padding: 5em;
 }
@@ -29,6 +35,31 @@ footer {
 
 #logo_footer{
     width: 10em;
+
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: #8BE5B6;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: #8BE5B6;
+}
+
+.fa-star, .fa-star-half-alt{
+    color: #8BE5B6 !important;
 }
 
 
@@ -36,6 +67,11 @@ footer {
 @media screen and (max-width: 772px) {
     #title_header {
       font-size: 3em;
+    }
+
+    #logo_footer{
+        margin-bottom: 2em;
+    
     }
 
   
@@ -50,5 +86,11 @@ footer {
         padding: 2em;
     }
 
+    
+#logo_footer{
+    margin-bottom: 2em;
+    text-align: center;
+}
   
   }
+
