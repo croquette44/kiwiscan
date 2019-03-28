@@ -2,3 +2,19 @@ html,
 body {
     height: 100%;
 }
+
+#bg_header{
+    background-image: url('/docs/img/background_header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.logo {
+    max-width: 15em;
+}
+
+#format_spacing{
+    padding: 2em 0 2em 0;
+}
