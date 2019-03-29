@@ -27,10 +27,10 @@
 
     <main role="main">
         <div id="bg_header" class="p-md-5 bg-light text-left">
-            <div class="d-flex flex-column p-lg-5">
+            <div id="header_content" class="d-flex flex-column p-lg-5">
                 <div class="container">
                     <h1 class="display-4">Contact Us</h1>
-                    <p class=" font-weight-normal">You have bugs ? A Idea ? Tell us !</p>
+                    <p class=" font-weight-normal">Some ideas to suggest? Let's talk!</p>
                 </div>
             </div>
         </div>
@@ -55,40 +55,56 @@
                     <textarea class="form-control" id="message" rows="5" maxlength="2000"></textarea>
                 </div>
                 <button type="submit" class="btn btn-secondary m-5">Send Mail</button>
+                    <label for="message">Your message</label>
+                    <textarea class="form-control" id="message" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-secondary">Send</button>
+            </form>
         </div>
         
     </main>
 
-    <footer class="text-center bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2">
-                    LOGO
-                </div>
-                <div class="col-md-7">
-                    <ul class="list-unstyled text-small d-flex justify-content-start">
-                        <a class="mr-5" href="./home.html">Home</a>
-                        <a class="mr-5" href="./use.html">Use</a>
-                        <a class="mr-5" href="./team.html">Team</a>
-                        <a class="mr-5" href=".contact.html">Contact</a>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <ul class="list-unstyled d-flex justify-content-end">
-                        <li class="mr-3"><a href="https://www.facebook.com" target="blank"><i
-                                    class="fab fa-facebook-f fa-2x"></i></a></i></li>
-                        <li class="mr-3"><a href="https://twitter.com" target="blank"><i
-                                    class="fab fa-twitter fa-2x"></i></a>
-                        </li>
-                        <li class="mr-3"><a href="https://www.instagram.com" target="blank"><i
-                                    class="fab fa-instagram fa-2x"></i></a></i></li>
-                    </ul>
-                </div>
+    <footer class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img id="logo_footer" class="logo img-fluid" src="img/logo.png">
             </div>
-            <div class="row">
-                <div class="col-12 col-md">
-                    <small>&copy; 2019 KiwiScan, Inc.</small>
-                </div>
+            <div class="col-6 col-md">
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Home</a></li>
+
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">FAQ</a></li>
+
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Team</a></li>
+
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Contact</a></li>
+
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul class="list-unstyled d-flex justify-content-end">
+                    <li class="mr-3"><a href="https://www.facebook.com" target="blank"><i
+                                class="fab fa-facebook-f fa-x"></i></a></i></li>
+                    <li class="mr-3"><a href="https://twitter.com" target="blank"><i
+                                class="fab fa-twitter fa-1x"></i></a>
+                    </li>
+                    <li class="mr-3"><a href="https://www.instagram.com" target="blank"><i
+                                class="fab fa-instagram fa-1x"></i></a></i></li>
+                </ul>
             </div>
         </div>
     </footer>
