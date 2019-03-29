@@ -1,3 +1,9 @@
+import { lang } from "./lang.js";
+
+document.addEventListener('DOMContentLoaded', () => {
+    lang.getLang();
+});
+
 // Cookies consent modal
 // function getCookie(cname) {
 //     const name = cname + "=";
