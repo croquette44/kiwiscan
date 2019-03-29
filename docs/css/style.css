@@ -4,7 +4,7 @@ body {
 }
 
 #bg_header {
-    background-image: url('/docs/img/background_header.jpg');
+    background-image: url('../img/background_header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
