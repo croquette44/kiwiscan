@@ -39,6 +39,19 @@ i {
     color: #B3CC57;
 }
 
+.btn-secondary {
+    color: #fff;
+    background-color: #B3CC57;
+    border-color: #B3CC57;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: rgb(147, 168, 72) !important;
+    border-color: rgb(147, 168, 72) !important;
+}
+
+
 a.text-dark:focus, a.text-dark {
     color: #B3CC57 !important;
 }
