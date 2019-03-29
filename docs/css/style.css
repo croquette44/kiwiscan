@@ -59,33 +59,57 @@ footer {
     color: #949494;
 }
 
-/* 
-** Style for the banner
-*/
-/* .cookie {
-    background-color: #ccecdc;
-    padding: 5px;
+/* Style for the banner */
+.cookiealert {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 !important;
+    z-index: 999;
+    opacity: 0;
+    border-radius: 0;
+    background: #ccecdc url("cubes.png");
+    transform: translateY(100%);
+    transition: all 500ms ease-out;
+    color: black;
     font-weight: 600;
 }
 
-#cookie-button {
-    color: black;
-    background-color: orange;
+.cookiealert.show {
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: 1000ms;
 }
 
-#button-info {
-    color: black;
-    background-color: rgb(39, 215, 238);
+.cookiealert a {
+    text-decoration: underline
 }
 
-.accepted-cookie-policy {
-    opacity: 0;
-    display: none;
-} */
+.cookiealert .acceptcookies {
+    margin-left: 10px;
+    vertical-align: baseline;
+    font-weight: 700;
+}
 
-/* 
-** Style for the banner
- */
+.cookiealert {
+	background: linear-gradient(45deg, #CCECDC, #8BE5B6, #B3CC57, #FFFFFF);
+	background-size: 400% 400%;
+	animation: Gradient 15s ease infinite;
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+/* Style for the banner */
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
