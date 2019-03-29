@@ -1,7 +1,11 @@
 import { lang } from "./lang.js";
 
-document.addEventListener('DOMContentLoaded', () => {
-    lang.getLang();
+document.addEventListener('DOMContentLoaded', function() {
+
+    document.querySelector('#dropdown_lang').addEventListener('change', () => {
+       const choosenLanguage = document.querySelector('#dropdown_lang').value; 
+       lang.chooseLanguage(choosenLanguage);
+    })
 });
 
 // Cookies consent modal

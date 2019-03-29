@@ -1,8 +1,8 @@
 {
-    "index": {
-        "Home": "Accueil",
-        "FAQ": "FAQ",
-        "Team": "Équipe",
-        "Contact": "Contact"
+    "navbar": {
+        "home": "Accueil",
+        "faq": "FAQ",
+        "team": "Équipe",
+        "contact": "Contact"
     }
 }
