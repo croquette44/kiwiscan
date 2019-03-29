@@ -21,44 +21,12 @@ body {
     border-color: #B3CC57;
 }
 
-.text-muted {
-    color: #B3CC57 !important;
-}
-
-.text-muted:hover {
-    color:rgb(147, 168, 72) !important;
-    text-decoration: none;
-}
-
-
 .logo {
     max-width: 15em;
 }
 
 i {
     color: #B3CC57;
-}
-
-.btn-secondary {
-    color: #fff;
-    background-color: #B3CC57;
-    border-color: #B3CC57;
-}
-
-.btn-secondary:hover {
-    color: #fff;
-    background-color: rgb(147, 168, 72) !important;
-    border-color: rgb(147, 168, 72) !important;
-}
-
-
-a.text-dark:focus, a.text-dark {
-    color: #B3CC57 !important;
-}
-
-a.text-dark:focus, a.text-dark:hover {
-    color: rgb(147, 168, 72) !important;
-    text-decoration: none;
 }
 
 #team_avatar{
