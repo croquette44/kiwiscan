@@ -4,7 +4,7 @@ body {
 }
 
 #bg_header {
-    background-image: url('/docs/img/background_header.jpg');
+    background-image: url('../img/background_header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -64,7 +64,22 @@ footer {
     color: #8BE5B6 !important;
 }
 
+.circle_orange {
+    color: #FFCC01;
+}
+.circle_green {
+    color: #60F000;
+}
 
+.table td, .table th {
+    padding: .30rem;
+    vertical-align: top;
+}
+
+.nutriscoreA {
+max-width: 12em;
+
+}
 
 @media screen and (max-width: 772px) {
     #title_header {
