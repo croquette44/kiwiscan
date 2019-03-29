@@ -29,12 +29,12 @@ i {
     color: #B3CC57;
 }
 
-#team_avatar{
+#team_avatar {
     width: 10em;
 }
 
 
-#header_content{
+#header_content {
     padding: 5em;
 }
 
@@ -46,19 +46,48 @@ footer {
     padding-top: 2em;
 }
 
-#logo_footer{
+#logo_footer {
     width: 10em;
 
 }
 
-#freepik_link{
+#freepik_link {
     color: #ebebeb;
 }
 
-#freepik_link:hover{
+#freepik_link:hover {
     color: #949494;
 }
 
+/* 
+** Style for the banner
+*/
+.cookie {
+    background-color: #ccecdc;
+    padding: 5px;
+    font-weight: 600;
+}
+
+#cookie-button {
+    color: black;
+    background-color: orange;
+}
+
+#button-info {
+    color: black;
+    background-color: rgb(39, 215, 238);
+}
+
+/* Utility */
+
+.accepted-cookie-policy {
+    opacity: 0;
+    display: none;
+}
+
+/* 
+** Style for the banner
+*/
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -79,53 +108,56 @@ footer {
     color: #8BE5B6;
 }
 
-.fa-star, .fa-star-half-alt{
-    color: #8BE5B6 !important;
+.fa-star,
+.fa-star-half-alt {
+    color: #8BE5B6;
 }
 
 .circle_orange {
     color: #FFCC01;
 }
+
 .circle_green {
     color: #60F000;
 }
 
-.table td, .table th {
+.table td,
+.table th {
     padding: .30rem;
     vertical-align: top;
 }
 
 .nutriscoreA {
-max-width: 12em;
+    max-width: 12em;
 
 }
 
 @media screen and (max-width: 772px) {
     #title_header {
-      font-size: 3em;
+        font-size: 3em;
     }
 
-    #logo_footer{
+    #logo_footer {
         margin-bottom: 2em;
-    
+
     }
 
-  
-  }
 
-  @media screen and (max-width: 414px) {
+}
+
+@media screen and (max-width: 414px) {
     #title_header {
-      font-size: 1.5em;
+        font-size: 1.5em;
     }
 
-    #header_content{
+    #header_content {
         padding: 2em;
     }
 
-    
-#logo_footer{
-    margin-bottom: 2em;
-    text-align: center;
+
+    #logo_footer {
+        margin-bottom: 2em;
+        text-align: center;
+    }
+
 }
-  
-  }
