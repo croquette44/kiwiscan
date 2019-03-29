@@ -10,36 +10,16 @@ body {
     background-position: center center;
 }
 
-/* 
-** Style for the banner
-*/
-.cookie {
-    background-color: #8be5b6;
-    padding: 5px;
-    font-weight: 600;
+.btn-outline-primary {
+    color: #B3CC57;
+    border-color: #B3CC57;
 }
 
-#cookie-button, #button-info {
-    background-color: #ffffff;   
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #B3CC57;
+    border-color: #B3CC57;
 }
-
-#button-info:hover, #cookie-button:hover {
-    transition: background-color 0.2s ease-in-out;
-    background: radial-gradient(#8be5b6 80%,#B3CC57);
-}
-
-/* Utility */
-
-.accepted-cookie-policy {
-    opacity: 0;
-    display: none;
-}
-/* 
-** Style for the banner
-*/
-
-
-
 
 .logo {
     max-width: 15em;
@@ -49,12 +29,12 @@ i {
     color: #B3CC57;
 }
 
-#team_avatar {
+#team_avatar{
     width: 10em;
 }
 
 
-#header_content {
+#header_content{
     padding: 5em;
 }
 
@@ -66,10 +46,19 @@ footer {
     padding-top: 2em;
 }
 
-#logo_footer {
+#logo_footer{
     width: 10em;
 
 }
+
+#freepik_link{
+    color: #ebebeb;
+}
+
+#freepik_link:hover{
+    color: #949494;
+}
+
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -90,53 +79,53 @@ footer {
     color: #8BE5B6;
 }
 
-.fa-star,
-.fa-star-half-alt {
+.fa-star, .fa-star-half-alt{
     color: #8BE5B6 !important;
 }
 
 .circle_orange {
     color: #FFCC01;
 }
-
 .circle_green {
     color: #60F000;
 }
 
-.table td,
-.table th {
+.table td, .table th {
     padding: .30rem;
     vertical-align: top;
 }
 
 .nutriscoreA {
-    max-width: 12em;
+max-width: 12em;
 
 }
 
 @media screen and (max-width: 772px) {
     #title_header {
-        font-size: 3em;
+      font-size: 3em;
     }
 
-    #logo_footer {
+    #logo_footer{
         margin-bottom: 2em;
-
+    
     }
-}
 
-@media screen and (max-width: 414px) {
+  
+  }
+
+  @media screen and (max-width: 414px) {
     #title_header {
-        font-size: 1.5em;
+      font-size: 1.5em;
     }
 
-    #header_content {
+    #header_content{
         padding: 2em;
     }
 
-
-    #logo_footer {
-        margin-bottom: 2em;
-        text-align: center;
-    }
+    
+#logo_footer{
+    margin-bottom: 2em;
+    text-align: center;
 }
+  
+  }
