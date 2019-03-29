@@ -25,7 +25,7 @@
         </nav>
         <a class="btn btn-outline-primary" href="#">Download the App</a>
 
-        <select id="dropdown_lang">
+        <select class="ml-3" id="dropdown_lang">
             <option selected>Language</option>
             <option value="fr">Fr</option>
             <option value="en">En</option>
@@ -217,12 +217,17 @@
             </div>
         </footer>
         <!-- Cookies consent here -->
-        <!-- <div id="cookie-banner" class="cookie text-center border border-warning">
-            Hey listen! KiwiScan website uses cookies to ensure you get the best experience here.
-            <a class="btn btn-outline-primary button-info" id="button-info"
-                href="https://www.cnil.fr/fr/site-web-cookies-et-autres-traceurs" target="_blank">learn more</a>
-            <a class="btn btn-outline-primary button-ok" id="cookie-button" href="#">OK</a>
-        </div>  -->
+        <div class="alert alert-dismissible text-center cookiealert show" role="alert">
+            <div class="cookiealert-container">
+                🍪 Hey listen! KiwiScan website uses cookies to ensure you get the best experience here. <a
+                    href="https://www.cnil.fr/fr/site-web-cookies-et-autres-traceurs" rel="noopener"
+                    target="_blank">Learn more</a>
+
+                <button type="button" class="btn btn-warning btn-sm acceptcookies" aria-label="Close">
+                    I agree
+                </button>
+            </div>
+        </div>
         <!-- Cookies consent here -->
         </script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
