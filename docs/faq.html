@@ -16,39 +16,42 @@
 <!-- La barre de navigation -->
 
 <body class="d-flex flex-column justify-content-between">
+
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom shadow-sm">
-        <img class="logo my-0 mr-md-auto font-weight-normal img-fluid" src="img/logo.png">
+        <a class="logo my-0 mr-md-auto" href="./index.html"><img class="img-fluid" src="img/logo.png"
+                alt="Logo KiwiScan"></a>
         <nav class="my-2 my-md-0 mr-md-3">
-            <a class="p-2 text-dark" href="./index.html">Home</a>
-            <a class="p-2 text-dark" href="./faq.html">FAQ</a>
-            <a class="p-2 text-dark" href="./team.html">Team</a>
-            <a class="p-2 text-dark" href="./contact.html">Contact</a>
+            <a class="p-2 text-muted" href="./index.html">Home</a>
+            <a class="p-2 text-muted" href="./faq.html">FAQ</a>
+            <a class="p-2 text-muted" href="./team.html">Team</a>
+            <a class="p-2 text-muted" href="./contact.html">Contact</a>
         </nav>
-        <a class="btn btn-outline-primary" href="#">Download the app</a>
+        <a class="btn btn-outline-primary" href="#">Download the App</a>
     </div>
 
     <main role="main">
         <!-- bloc header -->
         <div id="bg_header" class="p-md-5 bg-light text-left">
-            <div class="d-flex flex-column p-lg-5">
-
+            <div id="header_content" class="d-flex flex-column p-lg-5">
                 <div class="container">
-                    <h1 id="title_header" class="display-4">Quick start !</h1>
-                    <p class=" font-weight-normal">Download now in Apple store and Play store to scan your food!
-                    </p>
+                    <h1 class="display-4">Quick start</h1>
+                    <p class="lead">Let's see how to use the App!</p>
                 </div>
             </div>
         </div>
+        </div>
 
         <!-- bloc partie 1 -->
-        <div class="container">
+        <div class="container" id="format_spacing">
             <div class="row">
-                <div class="col-sm-6">
+
+                <div class="col-sm-6 text-center" style="margin: auto;">
                     <!-- insèrer IMAGE2  -->
-                    <img class=""
-                        src="https://image.freepik.com/free-vector/grocery-store-trading-room-interior-cartoon-vector-with-shopping-baskets-near-cash-counter-desk_1441-2894.jpg"
-                        alt="">
+                    <img class="img-fluid rounded" src="./img/2899.jpg" alt="Supermarket picture">
+                    <small><a id="freepik_link" href="http://www.freepik.com">Designed by vectorpocket /
+                            Freepik</a></small>
                 </div>
+
                 <div class="col-sm-6 text-left" style="margin: auto;">
                     <h1 class="display-4">What is the nutriscore ?</h1>
 
@@ -60,16 +63,14 @@
                     <p class="lead">So, the best nutriscore is specified by the A letter on dark green background.</p>
 
 
-                    <div class="col-sm">
-                        <!-- insèrer IMAGE nutriscore A  -->
-                        <img class="img-fluid nutriscoreA" src="https://www.colruyt.be/sites/default/files/ns-a.jpg"
-                            alt="nutriscoreA">
-                    </div>
+                    <div class="col-sm" style="margin: auto;">
+                        <img class="img-fluid nutriscoreA" src="./img/ns-a.jpg" alt="The nutriscore A grade."></div>
                 </div>
+
             </div>
         </div>
         <!-- bloc partie 2 -->
-        <div class="container">
+        <div class="container" id="format_spacing">
             <div class="row">
                 <div class="col-sm text-left" style="margin: auto;">
                     <h1 class="display-4">How use KiwiScan ?</h1>
@@ -78,18 +79,21 @@
                         product is healthy, or if you should prefer another one!
                     </p>
                 </div>
-                <div class="col-sm">
-                    <!-- insèrer IMAGE3  -->
-                    <img class="" src="" alt="">
+                <div class="col-sm text-center">
+                    <img class="img-fluid rounded" src="./img/56052.jpg" alt="Picture of an iphone using KiwiScan App">
+                    <small><a id="freepik_link" href="http://www.freepik.com">Designed by Freepik</a></small>
                 </div>
             </div>
         </div>
         <!-- bloc partie 3 -->
-        <div class="container">
+        <div class="container" id="format_spacing">
             <div class="row">
                 <div class="col-sm-6">
-                    <!-- insèrer IMAGE4  -->
-                    <img class="" src="" alt="">
+                    <div class="col-sm text-center">
+                        <img class="img-fluid rounded" src="./img/13562.jpg" alt="A nice supermarket">
+                        <small><a id="freepik_link" href="http://www.freepik.com">Designed by rawpixel.com /
+                                Freepik</a></small>
+                    </div>
                 </div>
                 <div class="col-sm text-left" style="margin: auto;">
                     <div class="col-12">
@@ -102,9 +106,7 @@
                     <div class="row">
                         <div class="col-sm-3">
                             <!-- insèrer IMAGE quinoa tomates olives Bjorg  -->
-                            <img class="text-center img-fluid quinoa"
-                                src="https://www.bjorg.fr/cache/media/produits-les-repas/quinoa-tomates-olives-bio/r,750,750,1-475f9c.png"
-                                alt="quinoa Bjorg">
+                            <img class="text-center img-fluid" src="./img/bjorg.png" alt="Quinoa Bjorg">
                         </div>
                         <div class="col-sm-9">
                             <table class="table table-striped">
@@ -162,23 +164,37 @@
         </div>
 
 
-
-        <footer class="text-center bg-light">
+        <footer class="py-5 shadow">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-2">
-                        LOGO
+                    <div class="col-12 col-md d-flex justify-content-center">
+                        <a href="./index.html"><img id="logo_footer" class="logo img-fluid" src="img/logo.png"
+                                alt="logo_kiwiscan"></a>
                     </div>
-                    <div class="col-md-7">
-                        <ul class="list-unstyled text-small d-flex justify-content-start">
-                            <a class="mr-5" href="./home.html">Use</a>
-                            <a class="mr-5" href="./use.html">Use</a>
-                            <a class="mr-5" href="./team.html">Team</a>
-                            <a class="mr-5" href=".contact.html">Contact</a>
+                    <div class="col-6 col-md d-flex justify-content-center">
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" href="./index.html">Home</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <ul class="list-unstyled text-small d-flex justify-content-center">
+                            <li><a class="text-muted" href="./faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+
+                        <ul class="list-unstyled text-small d-flex justify-content-center">
+                            <li><a class="text-muted" href="./team.html">Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+
+                        <ul class="list-unstyled text-small d-flex justify-content-center">
+                            <li><a class="text-muted" href="./contact.html">Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3">
-                        <ul class="list-unstyled d-flex justify-content-end">
+                        <ul class="list-unstyled d-flex justify-content-center">
                             <li class="mr-3"><a href="https://www.facebook.com" target="blank"><i
                                         class="fab fa-facebook-f fa-2x"></i></a></i></li>
                             <li class="mr-3"><a href="https://twitter.com" target="blank"><i
@@ -187,11 +203,6 @@
                             <li class="mr-3"><a href="https://www.instagram.com" target="blank"><i
                                         class="fab fa-instagram fa-2x"></i></a></i></li>
                         </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md">
-                        <small>&copy; 2019 KiwiScan, Inc.</small>
                     </div>
                 </div>
             </div>
