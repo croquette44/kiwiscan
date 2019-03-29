@@ -13,7 +13,6 @@ class Language {
         easyHTTP.get('./js/fr.json')
             .then(data => console.log(data))
             .catch(err => console.log(err));
-
     }
 
     
