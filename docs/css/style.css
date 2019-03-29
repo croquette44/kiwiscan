@@ -62,7 +62,7 @@ footer {
 /* 
 ** Style for the banner
 */
-.cookie {
+/* .cookie {
     background-color: #ccecdc;
     padding: 5px;
     font-weight: 600;
@@ -78,16 +78,14 @@ footer {
     background-color: rgb(39, 215, 238);
 }
 
-/* Utility */
-
 .accepted-cookie-policy {
     opacity: 0;
     display: none;
-}
+} */
 
 /* 
 ** Style for the banner
-*/
+ */
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
