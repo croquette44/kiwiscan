@@ -1,16 +1,27 @@
 import { easyHTTP } from "./easyhttp.js";
+import { clientStorage } from "./localstorage.js";
 
 class Language {
     constructor(){
-        // this.en = en;
-        // this.fr = fr;
-        this.currentLang = 'en';
+        this.currentLang = clientStorage.getItemFromStorage('lang');
     }
 
     chooseLanguage(lang){
-        this.currentLang = lang;
-        console.log(this.currentLang);
-        Language.getLang(lang);
+
+        switch (lang) {
+            case 'fr':
+                clientStorage.storeItem('lang', 'fr');
+                break;
+            
+            case 'en':
+                clientStorage.storeItem('lang', 'en');
+                break;
+            
+            default:
+            clientStorage.storeItem('lang', 'en');
+                break;
+        }
+
     }
 
     static getLang(lang){
@@ -25,7 +36,10 @@ class Language {
             .catch(err => console.log(err));
     }
 
-    
+    selectedLanguageInit(){
+        Language.getLang(this.currentLang[0]);
+    }
+
 }
 
 export const lang = new Language;

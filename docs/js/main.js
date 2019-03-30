@@ -2,10 +2,18 @@ import { lang } from "./lang.js";
 
 document.addEventListener('DOMContentLoaded', function() {
 
+    // Init the selected language
+    lang.selectedLanguageInit();
+
+    // Language selection
     document.querySelector('#dropdown_lang').addEventListener('change', () => {
-       const choosenLanguage = document.querySelector('#dropdown_lang').value; 
-       lang.chooseLanguage(choosenLanguage);
-    })
+        const choosenLanguage = document.querySelector('#dropdown_lang').value; 
+        lang.chooseLanguage(choosenLanguage);
+        // Refresh page in order to display the newly selected language..
+        document.location.reload();
+    });
+
+
 });
 
 // Cookies alerte
